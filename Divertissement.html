@@ -1,36 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+    <title>Divertissement - Eliane</title>
     <link rel="stylesheet" href="Css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/brands.min.css" integrity="sha512-WxpJXPm/Is1a/dzEdhdaoajpgizHQimaLGL/QqUIAjIihlQqlPQb1V9vkGs9+VzXD7rgI6O+UsSKl4u5K36Ydw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
 <body>
     <header>
-<div>
-    <a href="">Mon Portfolio</a>    
-</div>
-<nav>
-    <ul>
-        <li><a href="index.html"></a></li>
-        <li><a href="Projets.html">Projets</a></li>
-        <li><a href="Passions.html">Passions</a></li>
-        <li><a href="Divertissement.html" class="active">Divertissement</a></li>
-        <li><a href="Contact.html">Contact</a></li>
-    </ul>
-</nav>
+        <div><a href="index.html">Mon Portfolio</a></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="Projets.html">Projets</a></li>
+                <li><a href="Passions.html">Passions</a></li>
+                <li><a href="Divertissement.html" class="active">Divertissement</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <main><h1>Nos Divertissement</h1></main>
+
+    <main class="container">
+        <section class="section-title">
+            <h2>Mes Moments Détente</h2>
+        </section>
+
+        <div class="divertissement-list">
+            <div class="div-card">
+                <div class="div-icon"><i class="fa-solid fa-headphones"></i></div>
+                <div class="div-info">
+                    <h3>Playlist Focus</h3>
+                    <p>Rien de tel que du Lo-Fi ou du Jazz pour rester concentrée pendant mes sessions de code.</p>
+                </div>
+            </div>
+
+            <div class="div-card">
+                <div class="div-icon"><i class="fa-solid fa-gamepad"></i></div>
+                <div class="div-info">
+                    <h3>Jeux Vidéo</h3>
+                    <p>Passionnée par les jeux d'aventure et de stratégie qui demandent de la réflexion.</p>
+                </div>
+            </div>
+
+            <div class="div-card">
+                <div class="div-icon"><i class="fa-solid fa-book-open"></i></div>
+                <div class="div-info">
+                    <h3>Lecture & Sci-Fi</h3>
+                    <p>Grand fan d'Isaac Asimov et de tout ce qui touche à l'exploration du futur.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
     <footer>
-        <p>&copy;2026 Eliane.Tous droits réservés.</p>
-        <a href=""><i class="fa-brands fa-github"></i></a>
-        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
-    </footer> 
+        <p>&copy;2026 Eliane. Tous droits réservés.</p>
+        <div class="social-links">
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </footer>
 </body>
 </html>
